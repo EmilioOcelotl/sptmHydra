@@ -30,6 +30,7 @@ Una nueva instancia de Hydra
 Seleccionarlo y ocultarlo para quue no se empalmen
 
 `hc = select("#myCanvas")`
+
 `hc.hide()`
 
 Creamos un espacio para guardar la imagen
@@ -43,6 +44,7 @@ Y usamos en algún lugar de la memoria
 Podemos obtener la información de los pixeles y pasarla a un círculo
 
 `fill(pg.get(x, y))`
+
 `ellipse(x, y, 5);`
 
 ## Three.js 
@@ -67,6 +69,7 @@ var hydra = new Hydra({
 `
 
 `const elCanvas = document.getElementById( 'myCanvas');`
+
 `elCanvas.style.display = 'none';`
 
 Pasamos el canvas como una nueva textura
