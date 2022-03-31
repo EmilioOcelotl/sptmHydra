@@ -55,6 +55,8 @@ Podemos obtener la información de los pixeles y pasarla a un círculo
 
 Este modo se ajusta para entornos 3d. Puede ejecutarse en algo como codepen
 
+Si todo sale bien, podemos subir los archivos a un servidor 
+
 [Fundamentals](https://threejs.org/manual/#en/fundamentals) 
 
 Cargar la librería
@@ -88,3 +90,11 @@ Pasamos el canvas como una nueva textura
 Y agregar dentro de los materiales:
 
 `map: tex`
+
+## Montaje en github
+
+Nuevo proyecto y subir archivos
+
+Activar github pages
+
+Esperar unos minutos 
