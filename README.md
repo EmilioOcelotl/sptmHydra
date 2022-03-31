@@ -21,6 +21,10 @@ Primero agregar:
 
 `<script src="https://unpkg.com/hydra-synth"></script>`
 
+Y:
+
+`<canvas id="myCanvas" width="400px" height="400px"></canvas>`
+
 Una nueva instancia de Hydra
 
 `var hydra = new Hydra({
@@ -56,6 +60,11 @@ Este modo se ajusta para entornos 3d. Puede ejecutarse en algo como codepen
 Cargar la librería
 
 `<script src="https://unpkg.com/hydra-synth"></script>`
+
+Y agregar el canvas
+
+`<canvas id="myCanvas" width="400px" height="400px"></canvas>`
+
 
 Luego seguir el [tutorial](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) para armar elementos iniciales de una escena
 
